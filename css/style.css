@@ -11,19 +11,17 @@
     margin: 10px auto;
 }
 
-/* header */
-header {
+/* navbar */
+nav {
     background-color: #EE82EE;
     height: 100px;
-    margin-bottom: 20px;
-    
 }
 
-/* nav */
-nav {
+/* banner */
+.banner {
     background-color: #DAA520;
     height: 300px;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
 /* main */
@@ -44,7 +42,8 @@ main {
     height: 80px;
     background-color: #87CEEB;
 }
-aside.left {
+aside.left,
+aside.right {
     float: left;
     width: 19%;
     height: 360px;
@@ -57,12 +56,6 @@ section.center {
     margin: 0 1%;
     background-color: #87CEEB;
 }
-aside.right {
-    float: left;
-    width: 19%;
-    height: 360px;
-    background-color: #87CEEB;
-}  
 
 /* footer */
 footer {
